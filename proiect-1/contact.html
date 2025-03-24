@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Holistic Health Path</title>
+  <meta name="description" content="Subscribe to our fitness and nutrition newsletter">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="contact-page">
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">Holistic Health Path</a>
+        </div>
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="nutrition.html">Nutrition</a></li>
+          <li><a href="training.html">Training</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero contact-hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Stay Updated with Our Newsletter</h1>
+          <p>Subscribe for weekly fitness tips, nutritional advice, and exclusive workout plans</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form">
+      <div class="container">
+        <div class="form-container">
+          <h2 class="section-title">Subscribe to Our Newsletter</h2>
+          
+          <form id="newsletterForm">
+            <div class="form-group">
+              <label for="name">Name <span class="required">*</span></label>
+              <input type="text" id="name" required>
+              <span class="error-message" id="nameError"></span>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email <span class="required">*</span></label>
+              <input type="email" id="email" required>
+              <span class="error-message" id="emailError"></span>
+            </div>
+            
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject">
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Message <span class="required">*</span></label>
+              <textarea id="message" rows="5" required></textarea>
+              <span class="error-message" id="messageError"></span>
+            </div>
+            
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary">Subscribe to Newsletter</button>
+            </div>
+          </form>
+          
+          <div id="formSuccess" class="form-success">
+            <h3>Thank you for subscribing!</h3>
+            <p>You've been successfully added to our newsletter. We'll be sending you valuable content soon.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Benefits Section -->
+    <section class="benefits">
+      <div class="container">
+        <h2 class="section-title">Benefits of Our Newsletter</h2>
+        
+        <div class="benefits-grid">
+          <div class="benefit">
+            <h3>Weekly Workout Plans</h3>
+            <p>Receive customized workout routines designed by fitness professionals to help you reach your goals.</p>
+          </div>
+          
+          <div class="benefit">
+            <h3>Nutrition Guides</h3>
+            <p>Get exclusive recipes, meal plans, and nutritional advice tailored to support your fitness journey.</p>
+          </div>
+          
+          <div class="benefit">
+            <h3>Expert Tips</h3>
+            <p>Learn training techniques, recovery strategies, and health hacks from industry experts.</p>
+          </div>
+          
+          <div class="benefit">
+            <h3>Community Support</h3>
+            <p>Join a community of like-minded individuals on a similar path to holistic health and fitness.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h3>Holistic Health Path</h3>
+          <p>Your guide to balanced fitness and nutrition</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="nutrition.html">Nutrition</a></li>
+            <li><a href="training.html">Training</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Stay Updated</h4>
+          <a href="contact.html" class="btn btn-outline">Subscribe to Newsletter</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Holistic Health Path. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
